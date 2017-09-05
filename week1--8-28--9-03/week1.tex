@@ -3,6 +3,7 @@
 \usepackage[utf8]{inputenc}  % Basic character encoding
 \usepackage{amsmath}         % For mathematical formulas
 \usepackage{amssymb}         % Provides an extended symbol collection.
+\usepackage{pgfplots}        % For plotting
 
 % personal data
 \title{Pre-calculus Notes, MAT 172 Fall 2017}
@@ -71,6 +72,12 @@ Just as you can represent real numbers by points on a real number line, you can
 represent ordered pairs of real numbers by points in a plane called the
 rectangular coordinate system, or the Cartesian plane, named after the French
 mathematician René Descartes (1596–1650).
+\\
+\begin{tikzpicture}
+\begin{axis}[axis lines=middle,axis equal,grid=both]
+\addplot coordinates{(-3,1) (6,-2)};
+\end{axis}
+\end{tikzpicture}
 
 \section{Factoring}
 
