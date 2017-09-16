@@ -8,7 +8,8 @@ public class Factoring {
         while(factorNumber <= number){
             System.out.println("Next: " + factorNumber);
             if(number % factorNumber == 0){
-                System.out.println(factorNumber + " is a factor of " + number);
+                System.out.println(factorNumber + 
+                    " is a factor of " + number);
             }
             factorNumber ++;
         }
